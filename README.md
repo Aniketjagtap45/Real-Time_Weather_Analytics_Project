@@ -243,27 +243,28 @@ The analysis identified:
 
 The weather data stored in PostgreSQL was analyzed and visualized using Power BI to compare weather patterns across Mumbai, Pune, Hyderabad, Chennai, and Delhi.
 
-Dashboard — Page 1
-<img width="1157" height="672" alt="Weather_Project_Page1" src="https://github.com/user-attachments/assets/283c32cc-b48c-4ded-923f-6cf63b9277c2" />
+## 📊 Dashboard Preview
 
+### Dashboard — Page 1
 
+![Real-Time Weather Analytics Dashboard - Page 1](Weather_Project_Page1.png)
 
+### Dashboard — Page 2
 
-Dashboard — Page 2
-<img width="1163" height="670" alt="Weather_Project_Page2" src="https://github.com/user-attachments/assets/6e03173d-964a-42d1-810e-045f05251d8f" />
+![Real-Time Weather Analytics Dashboard - Page 2](Weather_Project_Page2.png)
 
+## 📌 Key Dashboard Features
 
+* **KPI Cards:** Average temperature, average humidity, and average wind speed.
+* **Average Temperature by City:** Compare temperature levels across the five cities.
+* **Temperature Trends Over Time:** Analyze temperature variations across collected timestamps.
+* **Scatter Chart:** Explore relationships between weather variables.
+* **City-Wise Comparison:** Compare weather metrics across different cities.
+* **Interactive Visualizations:** Explore weather data and identify patterns through dashboard charts.
 
+## 🎯 Dashboard Purpose
 
-Key Dashboard Features
-KPI cards: Average temperature, humidity, and wind speed.
-City comparison: Compare average temperatures across the five cities.
-Time-series analysis: Explore how temperature changes over time.
-Scatter chart: Examine relationships between weather variables.
-Interactive visualizations: Explore differences across cities and weather metrics.
-
-The dashboard is designed to provide a quick overview of current and historical weather patterns across the five cities.
-
+The dashboard provides a consolidated view of the collected weather data, helping users compare weather conditions, identify temperature variations, and explore relationships between weather parameters across the five cities.
 ---
 
 # 🔎 Key Insights
@@ -279,21 +280,17 @@ Some of the observations identified during the analysis include:
 
 ---
 
-# 📂 Project Files
+## 🗂️ Project Files
 
-The repository contains the complete project files used during development:
-
-
-Weather Analytics Project/
-│
-├── Weather_Collector.py
-├── Weather_Project_Queries.sql
-├── Real_Time_Weather_Analysis.pbix
-├── README.md
-├── test_postgresql.sql
-├── Weather_Data.csv
-└── Screenshot_1 (Weather_Project_Page1)
-└── Screenshot_2 (Weather_Project_Page2)
+| File                              | Description                                |
+| --------------------------------- | ------------------------------------------ |
+| `Weather_Collector.py`            | Python weather data collection script      |
+| `test_postgresql.py`              | PostgreSQL connection and database testing |
+| `Weather_Project_Queries.sql`     | SQL queries used for analysis              |
+| `Real_Time_Weather_Analysis.pbix` | Power BI dashboard                         |
+| `Weather_Data.csv`                | Exported weather dataset                   |
+| `Weather_Project_Page1.png`       | Dashboard screenshot, Page 1               |
+| `Weather_Project_Page2.png`       | Dashboard screenshot, Page 2               |
 
 
 # 🚀 How the Project Works
@@ -352,3 +349,9 @@ The project helped me understand how to:
 **Collect → Clean → Store → Analyze → Visualize → Generate Insights**
 
 using a combination of REST API, Python, PostgreSQL, SQL, and Power BI.
+
+## 👨‍💻 Author
+
+**Aniket Jagtap**
+
+GitHub: [Aniketjagtap45](https://github.com/Aniketjagtap45)
