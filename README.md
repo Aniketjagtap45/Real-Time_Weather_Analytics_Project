@@ -269,14 +269,16 @@ The dashboard provides a consolidated view of the collected weather data, helpin
 
 # 🔎 Key Insights
 
-Some of the observations identified during the analysis include:
+The analysis of weather data collected from Chennai, Delhi, Hyderabad, Mumbai, and Pune provides the following observations from the validated dataset (10 October 2026):
 
-* Chennai recorded the highest average temperature among the five cities.
-* Pune recorded the lowest average temperature among the five cities.
-* Delhi ranked second based on average temperature.
-* Temperature and humidity showed a strong negative correlation across the analyzed cities.
-* Weather conditions varied considerably between cities.
-* The collected data can be used to monitor temperature, humidity, wind, and precipitation patterns over time.
+* **Temperature Comparison:** Chennai recorded the highest average temperature at **33.81°C**, while Pune recorded the lowest at **27.80°C**—a difference of **6.28°C**.
+* **Humidity Comparison:** Mumbai recorded the highest average relative humidity at **71.08%**, while Hyderabad recorded the lowest at **49.71%**—a difference of **21.37 percentage points**.
+* **Multi-City Monitoring:** The pipeline collects temperature, humidity, precipitation, wind speed, and other weather attributes across five cities, enabling comparative analysis.
+* **Time-Series Analysis:** Timestamped weather records support the analysis of temperature changes over time and comparisons between cities.
+* **Data Refresh and Monitoring:** The Python collector retrieves weather data at 15-minute intervals and stores it in PostgreSQL. Power BI retrieves the updated data when its configured refresh or query runs.
+
+*Note: The numerical findings represent the collected dataset at the time of validation and may change as new weather records are added. They should not be interpreted as long-term climate averages.*
+
 
 ---
 

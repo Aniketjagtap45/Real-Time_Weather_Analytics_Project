@@ -3,3 +3,5 @@ venv/
 **pycache**/
 *.py[cod]
 .env
+.env.*
+!.env.example

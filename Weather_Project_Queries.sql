@@ -3,6 +3,7 @@
 
 
 
+
 SELECT current_database();
 
 SELECT table_schema, table_name
@@ -404,21 +405,12 @@ select city,
 		offset 1
 		limit 2;
 
-
-
+/* Latest data check for live update */
 select city,
-max(temperature) as max_temperature
+count(*) as total_records,
+round(avg(temperature),2) as avg_temperature,
+round(avg(humidity),2) as avg_humidity,
+max(timestamp) as latest_record
 from weather_data
 group by city
-having max(temperature) = ( 
-	select max(max_temperature)
-	from (
-		select city,
-		max(temperature) as max_temperature
-		from weather_data
-		group by city
-		order by max_temperature desc
-		offset 1
-		limit 1
-	) as second_highest
-);
+order by city;
