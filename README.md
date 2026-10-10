@@ -241,18 +241,26 @@ The analysis identified:
 
 # 📈 Power BI Dashboard
 
-The analyzed weather data was connected to Power BI to create an interactive dashboard.
+The weather data stored in PostgreSQL was analyzed and visualized using Power BI to compare weather patterns across Mumbai, Pune, Hyderabad, Chennai, and Delhi.
 
-The dashboard includes KPIs and visualizations covering:
+Dashboard — Page 1
+<img width="1157" height="672" alt="Weather_Project_Page1" src="https://github.com/user-attachments/assets/283c32cc-b48c-4ded-923f-6cf63b9277c2" />
 
-* Average Temperature
-* Average Humidity
-* Average Wind Speed
-* Temperature trends over time
-* Average Temperature by City
-* City comparisons
-* Temperature relationships
-* Weather-related analysis
+
+
+
+Dashboard — Page 2
+<img width="1163" height="670" alt="Weather_Project_Page2" src="https://github.com/user-attachments/assets/6e03173d-964a-42d1-810e-045f05251d8f" />
+
+
+
+
+Key Dashboard Features
+KPI cards: Average temperature, humidity, and wind speed.
+City comparison: Compare average temperatures across the five cities.
+Time-series analysis: Explore how temperature changes over time.
+Scatter chart: Examine relationships between weather variables.
+Interactive visualizations: Explore differences across cities and weather metrics.
 
 The dashboard is designed to provide a quick overview of current and historical weather patterns across the five cities.
 
